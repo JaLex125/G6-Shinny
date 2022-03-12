@@ -1,0 +1,19 @@
+# setwd("C:/Users/joaod/Nova SBE/Network Analytics/Shinny App/Spotify Project/Shinny App")
+
+# install.packages("shiny")
+# install.packages("rsconnect") # used to deploy
+library(shinythemes)
+library(igraph)
+library(shiny)
+library(data.table)
+library(rsconnect)
+library(ggplot2)
+library(dplyr)
+
+# load("search-criteria.RData")
+
+rsconnect::setAccountInfo(name='group6-networkanalytics',
+                          token='EE026BA7A797A57C34B3DFA43FF2D6D7',
+                          secret='V5/+hGhNrLEg4zb4Gb5BDUCQELh1rTbuIm65NSMM')
+
+rsconnect::deployApp()

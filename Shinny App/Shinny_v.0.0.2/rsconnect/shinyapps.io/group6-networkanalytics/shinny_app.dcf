@@ -1,0 +1,11 @@
+name: shinny_app
+title:
+username:
+account: group6-networkanalytics
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 5826581
+bundleId: 5675036
+url: https://group6-networkanalytics.shinyapps.io/shinny_app/
+when: 1647082598.21933
+lastSyncTime: 1647082598.21933
